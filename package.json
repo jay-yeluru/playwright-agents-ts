@@ -1,0 +1,19 @@
+{
+  "name": "playwright-agents-todomvc-demo",
+  "version": "1.0.0",
+  "description": "Playwright agents demo testing the TodoMVC app",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "clean": "rimraf test-results playwright-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "rimraf": "^6.1.3",
+    "typescript": "^5.9.3"
+  }
+}
